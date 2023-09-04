@@ -2,8 +2,8 @@
 
 
 
-const request = 'https://app.omie.com.br/api/v1/geral/produtos/?JSON=';
-const JSON = '{"call":"ConsultarProduto","app_key": "1790900875764","app_secret":"6ae2a11c15ba1ec55af016908428e8f1","param": [{"codigo_produto": 0,"codigo_produto_integracao": "","codigo": "242"}]}';
+const request = 'https://app.omie.com.br/api/v1/geral/produtos/';
+const JSON = ?JSON='{"call":"ConsultarProduto","app_key": "1790900875764","app_secret":"6ae2a11c15ba1ec55af016908428e8f1","param": [{"codigo_produto": 0,"codigo_produto_integracao": "","codigo": "242"}]}';
 const options = {
     method: 'POST',
     headers: {  
