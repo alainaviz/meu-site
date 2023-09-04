@@ -12,15 +12,15 @@ function findProduct(){
     headers.append("Content-type", "appication/json");
 
     const bodyParameters ={
-        call: 'ConsultarProduto',
         app_key : APIKey,
         app_secret: AppSecret,
+        call: 'ConsultarProduto',
         param : [{
             "codigo_produto": 0,
             codigo_produto_integracao: "",
             codigo: 242}]
     }
-
+    console.log(bodyParameters)
     const parameters = {method: "POST", headers: headers, body: JSON.stringify(bodyParameters)}
 
 
