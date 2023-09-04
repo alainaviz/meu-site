@@ -1,8 +1,8 @@
 window.onload =function(){
-    findProduc();
+    findProduct();
 }
 
-function findProduc(){
+function findProduct(){
 
     let APIKey = "1790900875764";
     AppSecret = "6ae2a11c15ba1ec55af016908428e8f1"
