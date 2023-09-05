@@ -10,6 +10,7 @@ function findProduct(){
 
     var headers = new Headers();
     headers.append("Content-type", "appication/json");
+    headers.append("mode","no-cors");
 
     const bodyParameters ={
         app_key : APIKey,
